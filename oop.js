@@ -17,8 +17,8 @@ class Computer{
 
 class Laptop extends Computer{
   // const screenSize; 
-
-  constructor (screenSize){
+s
+  constructor (name,model,brand,screenSize){
     super(name,model,brand);
     this.screenSize = screenSize;
   }
@@ -27,7 +27,7 @@ class Laptop extends Computer{
 class Desktop extends Computer{
   // const size; 
 
-  constructor (size){
+  constructor (name,model,brand,size){
     super(name,model,brand); //model is not defined
     this.size = size;
   }
